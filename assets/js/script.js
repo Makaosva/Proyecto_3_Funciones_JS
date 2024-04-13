@@ -3,6 +3,7 @@
 }*/
 const ele = document.getElementById("ele1");
 //ele.addEventListener("click", pintar);
-ele.addEventListener("click", function () {
-  ele.style.backgroundColor = "yellow";
+ele.addEventListener("click", function (color = "green") {
+  console.log("color");
+  ele.style.backgroundColor = color;
 });
