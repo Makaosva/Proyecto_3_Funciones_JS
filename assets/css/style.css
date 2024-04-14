@@ -1,6 +1,6 @@
 body {
-  background-color: rgb(184, 178, 178);
-  color: aqua;
+  background-color: rgb(218, 203, 203);
+  color: rgb(107, 197, 197);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -21,4 +21,56 @@ table {
 a {
   text-decoration: none;
   color: white;
+}
+
+#ele1 {
+  padding: 30px;
+}
+
+#col_az {
+  margin: 5px;
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+
+#col_ro {
+  margin: 5px;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+#col_ve {
+  margin: 5px;
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+
+#col_am {
+  margin: 5px;
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+}
+
+.cuadros {
+  display: flex;
+}
+
+#key {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border: 2px solid black;
+}
+
+#key2 {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border: 2px solid black;
 }
